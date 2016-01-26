@@ -18,9 +18,9 @@ to access the device one needs either root privileges or you can add a new udev 
 groupadd --system glucometer
 
 create new udev rules in "/etc/udev/rules.d/30-glucometer.rules" containing following line:
-# Contour Next USB
+\# Contour Next USB
 ACTION=="add", KERNEL=="hiddev\*", ATTRS{idVendor}=="1a79", ATTRS{idProduct}=="7410", GROUP="glucometer", MODE="0660"
-# Contour USB
+\# Contour USB
 ACTION=="add", KERNEL=="hiddev\*", ATTRS{idVendor}=="1a79", ATTRS{idProduct}=="6002", GROUP="glucometer", MODE="0660"
 
 as long as the user is member of the group glucometer you can run the tool with:
