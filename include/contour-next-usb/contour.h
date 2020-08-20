@@ -16,7 +16,7 @@
 #define __contour_h__
 
 #define CONTOUR_NEXT_VENDOR_ID  (0x1a79) 
-#define CONTOUR_NEXT_PRODUCT_ID (0x7410)
+#define CONTOUR_NEXT_PRODUCT_ID (0x7800)
 #define CONTOUR_USB_VENDOR_ID   (0x1a79)
 #define CONTOUR_USB_PRODUCT_ID  (0x6002)
 
